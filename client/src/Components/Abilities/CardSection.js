@@ -53,7 +53,7 @@ export default function CardSection(props) {
     setInProp(true);
   }
   return (
-    <div className="container service">
+    <div  className="container service">
       <div
         className="headingWrapper"
         style={{ backgroundColor: "transparent" }}

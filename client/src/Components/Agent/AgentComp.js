@@ -55,7 +55,7 @@ export default function AgentComp(props) {
   let currAgent = agents[props.agent];
   console.log("Agent :", agent1);
   return (
-    <div>
+    <div style ={{backgroundColor:"#367"}}>
       {console.log("hello" + currAgent[11])}
       <Video
         c1={currAgent[9]}
