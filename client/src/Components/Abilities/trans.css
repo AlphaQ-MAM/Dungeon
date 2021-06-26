@@ -15,6 +15,12 @@
     transform: scale(0.9);
     transition: opacity 2000ms, transform 2000ms;
   }
+<<<<<<< HEAD
+=======
+  body {
+    background: #367;
+  }
+>>>>>>> add : Ability and Card, Page Section
   
  
   select{
