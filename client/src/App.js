@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navigation/Navigation';
 import News from './Pages/News/News'
+import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/news" component={News}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }
