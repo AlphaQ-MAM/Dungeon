@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import NewsContainer from '../../Components/NewsConatiner/NewsContainer';
 import Paper from '@material-ui/core/Paper';
 import Fade from '@material-ui/core/Fade';
 import M from 'materialize-css';
@@ -60,12 +61,14 @@ export const News = () => {
                             <div className={classes.container}>
                                 <Fade in={checkParallax}>
                                     <Paper elevation={4} className={classes.paper}>
-                                        <h1 className={styles.text + ' white-text'} style={{ textDecoration: 'underline' }}>THE DUNGEON NEWS</h1>
+                                        <h1 className={styles.text + ' white-text'}>THE DUNGEON NEWS</h1>
                                     </Paper>
                                 </Fade>
                             </div>
                         </div>
                     </div>
+                    <NewsContainer checked={checked} />
+
                 </div>
                 <div>
                 </div>
