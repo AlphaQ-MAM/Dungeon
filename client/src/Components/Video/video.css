@@ -1,0 +1,43 @@
+
+
+
+.type {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight:800;
+    font-size: 100px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    background-color: #f3ec78;
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+      filter: drop-shadow(3px 2px 4px rgb(255, 255, 255));
+     
+  }
+  @media screen and (max-width: 600px) {
+    div.type {
+        font-size: 30px;
+        top:35%;
+    }
+  }
+
+  @media screen and (min-width:550px) and (max-width: 1100px) {
+    div.type {
+        font-size: 40px;
+        top:40%;
+    }
+  }
+  
+ 

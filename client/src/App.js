@@ -8,12 +8,14 @@ import LeaderBoard from './Pages/LeaderBoard/LeaderBoard';
 import './App.css';
 import Merchandise from './Pages/Merchandise/Merchandise';
 
-import  CardSection from './Components/Abilities/CardSection'
+
+import CompleteAgentPage from './Pages/Agents/CompleteAgentPage';
+import './App.css';
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <CardSection/>
+      <CompleteAgentPage/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/news" component={News} />
