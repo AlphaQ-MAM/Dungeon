@@ -50,8 +50,8 @@ function LeaderBoard() {
             <Slide direction="up" in={checked} mountOnEnter unmountOnExit>
                     <Paper elevation={4} className={classes.paper}>
                         <Table />
-                        <div class="parallaxInLeader1" style={{ height: '50vh' }}>
-                            <Link class="waves-effect waves-light btn-large white black-text" style={{ marginTop: '20px' }}><i class="material-icons right">arrow_forward</i>Next</Link>
+                        <div className="parallaxInLeader1" style={{ height: '50vh' }}>
+                            <Link className="waves-effect waves-light btn-large white black-text" style={{ marginTop: '20px' }}><i class="material-icons right">arrow_forward</i>Next</Link>
                     </div>
                 </Paper>
                 </Slide>
