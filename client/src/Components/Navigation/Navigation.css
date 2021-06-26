@@ -1,0 +1,28 @@
+.hover-switch > img {
+  position: absolute;
+  /* top: calc(50% - 100px); */
+  /* left: calc(50% - 100px); */
+}
+.hover-switch > img:last-of-type {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.hover-switch:hover > img:last-of-type {
+  opacity: 0;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+.vertical {
+            border-left: 2.5px solid rgb(44, 43, 43);
+            height: 45px;
+            position:absolute;
+            left: 6%;
+            margin-top: 1.2%;
+        }
+}
