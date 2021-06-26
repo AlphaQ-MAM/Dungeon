@@ -42,10 +42,29 @@ const a1ability = [
   ],
 ];
 
+const a2ability = [
+  [
+    "Blaze",
+    "Equip a flame wall. Fire to create a line of flames that moves forward creating a wall that blocks vision and damages players passing through it. Hold Fire to bend the wall .",
+  ],
+  [
+    "Curveball",
+    "Equip a flare orb that takes a curving path and detonates shortly after throwing, impairing vision. Fire to curve the flare orb to the left, detonating and blinding any player .",
+  ],
+  [
+    "Hot Hands",
+    "	Equip a fireball. Fire to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.",
+  ],
+  [
+    "Run It Back ",
+    "Instantly place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location.",
+  ],
+];
 export default function CardSection(props) {
   let Ability = new Map();
   Ability.set(0, a0ability);
   Ability.set(1, a1ability);
+  Ability.set(2, a2ability);
   console.log("first");
   let curr_Ability = Ability.get(props.id);
   const [inProp, setInProp] = useState(false);

@@ -21,6 +21,15 @@ import Jf1 from "../../Images/jett/f1.jpg";
 import Jf2 from "../../Images/jett/f2.jpg";
 import Jf3 from "../../Images/jett/f3.png";
 
+import PV1 from "../../Images/phoenix/v1.mp4";
+import Pp1 from "../../Images/phoenix/p1.png";
+import Pp2 from "../../Images/phoenix/p2.png";
+import Pp3 from "../../Images/phoenix/p3.png";
+import Pp4 from "../../Images/phoenix/p4.png";
+import Pf1 from "../../Images/phoenix/f1.png";
+import Pf2 from "../../Images/phoenix/f2.jpg";
+import Pf3 from "../../Images/phoenix/f3.png";
+
 export default function AgentComp(props) {
   const agent1 = [
     0,
@@ -50,12 +59,26 @@ export default function AgentComp(props) {
     "#65fcfc",
     "JETT",
   ];
-  let agents = { OMEN: agent1, JETT: agent2 };
+  const agent3 = [
+    2,
+    PV1,
+    Pp1,
+    Pp2,
+    Pp3,
+    Pp4,
+    Pf1,
+    Pf2,
+    Pf3,
+    "#c19c8c",
+    "#ffc75e",
+    "PHOENIX",
+  ];
+  let agents = { OMEN: agent1, JETT: agent2, PHOENIX:agent3 };
 
   let currAgent = agents[props.agent];
-  console.log("Agent :", agent1);
+
   return (
-    <div style ={{backgroundColor:"#367"}}>
+    <div style={{ backgroundColor: "#367" }}>
       {console.log("hello" + currAgent[11])}
       <Video
         c1={currAgent[9]}
@@ -72,7 +95,10 @@ export default function AgentComp(props) {
       />
 
       <div
-        style={{ padding: "10px 10px 10px 10px", backgroundColor: "transparent" }}
+        style={{
+          padding: "10px 10px 10px 10px",
+          backgroundColor: "transparent",
+        }}
         className="container"
       >
         <div
