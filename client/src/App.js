@@ -8,10 +8,12 @@ import LeaderBoard from './Pages/LeaderBoard/LeaderBoard';
 import './App.css';
 import Merchandise from './Pages/Merchandise/Merchandise';
 
+import  CardSection from './Components/Abilities/CardSection'
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <CardSection/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/news" component={News} />
