@@ -27,7 +27,7 @@ function LeaderBoard() {
         M.Parallax.init(elems);
     });
     useEffect(() => {
-        const interval = setTimeout(() => handleSlideUp(), 1000);
+        const interval = setTimeout(() => handleSlideUp(), 100);
         return () => {
             clearTimeout(interval);
         };
@@ -55,6 +55,7 @@ function LeaderBoard() {
                     </div>
                 </Paper>
                 </Slide>
+                <hr />
             </div>
         </>
     )
