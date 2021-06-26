@@ -1,0 +1,134 @@
+.parallaxContainer{
+        height:100vh;
+        background-color: rgba(0, 0, 0, 0.175);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+.parallaxContainer .parall{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+      }
+
+
+.parallaxContainer .parall img {
+
+    left:50%;
+    max-width: 165%;
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+
+}
+.parallaxContainer h3{
+  margin-top: 30%;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+.parallaxContainer  h2{
+  /* margin-top: 30%; */
+  margin-top: 0%;
+  font-size: 450%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.butt {
+	pointer-events: auto;
+	cursor: pointer;
+	background:transparent;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+    margin-top:100px;
+}
+
+.butt::before,
+.butt::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.buttonAnthe {
+	font-family: bely-display, sans-serif;
+	color: white;
+	background: none;
+}
+
+.buttonAnthe::before {
+	content: '';
+	background: rgb(216, 94, 94);
+	-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+	transition: clip-path 0.4s cubic-bezier(0.2, 1, 0.8, 1), -webkit-clip-path 0.4s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.buttonAnthe:hover::before {
+	background: rgb(216, 94, 94);
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.buttonAnthe span {
+	display: block;
+	mix-blend-mode: lighten;
+    font-size: 125%;
+	transition: transform 0.4s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.buttonAnthe:hover span {
+	transform: translate3d(-10px,0,0);
+}
+
+
+
+@media only screen and (min-width: 728px){
+  .parallaxContainer > .parall > img {
+    left:50%;
+    max-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+
+ }
+ .parallaxContainer  h2{
+  /* margin-top: 30%; */
+  margin-top: 0%;
+  font-size: 800%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+
+}
+.butt {
+	pointer-events: auto;
+	cursor: pointer;
+	background:transparent;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+    margin-top:50px;
+}
+}
