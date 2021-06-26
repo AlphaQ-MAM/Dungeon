@@ -41,7 +41,7 @@ function NewsContainer(props) {
                                 <NewsComponentRight img="news4.jfif" title="ACCOUNT LEVELING" alt="ACCOUNT LEVELING">
                                     <p className="white-text">Episode 3 will add a new way to recognize and reward you for your time playing in all VALORANT game modes. Your account Player Card will display a numeric level based on how much you play, that goes up the more time you put in.</p>
                                 </NewsComponentRight>
-                                <Link className={'waves-effect waves-light btn ' + styles.buttonColor} style={{ marginTop: '10%' }}> Load More<i class="material-icons" >arrow_forward</i></Link>
+                                <Link className={'waves-effect waves-light btn ' + styles.buttonColor} style={{ marginTop: '5%' }}> Load More<i class="material-icons">arrow_forward</i></Link>
                             </section>
                         </div>
                     </div>

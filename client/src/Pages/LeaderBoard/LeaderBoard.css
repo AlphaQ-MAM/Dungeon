@@ -1,0 +1,54 @@
+
+.bord{
+  border: 1px solid rgb(248, 223, 223);
+}
+.mytable-marg{
+	margin:0 auto;
+    	border-collapse: collapse;
+
+}
+.case
+{
+    padding-right: 50px;
+}
+
+.parallaxInLeader1 {
+  background-image: url(../../Images/Dun.jfif);
+
+   height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.positionText
+{
+    padding-top: 0%;
+}
+.mytable-marg {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+.text1
+{
+    font-size: 400%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallaxInLeader1 {
+    background-attachment: scroll;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text1{
+    font-size: 250%;
+  }
+  .case
+  {
+      padding-right: 60px;
+  }
+  .searchPosition
+  {
+      margin-top: 15vh;
+  }
+}

@@ -4,6 +4,7 @@ import Navbar from './Components/Navigation/Navigation';
 import News from './Pages/News/News'
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
+import LeaderBoard from './Pages/LeaderBoard/LeaderBoard';
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/news" component={News}/>
+        <Route exact path="/news" component={News} />
+        <Route exact path="/leader" component={LeaderBoard} />
       </Switch>
       <Footer/>
     </div>

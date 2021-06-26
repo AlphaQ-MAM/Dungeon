@@ -29,7 +29,7 @@ export const News = () => {
     }, [checked]);
 
     useEffect(() => {
-        const interval = setTimeout(() => handleParallaxText(), 1500);
+        const interval = setTimeout(() => handleParallaxText(), 500);
         return () => {
             clearTimeout(interval);
         };
@@ -40,7 +40,7 @@ export const News = () => {
     };
 
     useEffect(() => {
-        const interval = setTimeout(() => handleSlideUp(), 1000);
+        const interval = setTimeout(() => handleSlideUp(), 0);
         return () => {
             clearTimeout(interval);
         };
