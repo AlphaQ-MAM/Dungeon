@@ -67,6 +67,7 @@ export const News = () => {
                             </div>
                         </div>
                     </div>
+                    <hr />
                     <NewsContainer checked={checked} />
 
                 </div>
