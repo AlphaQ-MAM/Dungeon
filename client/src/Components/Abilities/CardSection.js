@@ -60,11 +60,31 @@ const a2ability = [
     "Instantly place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location.",
   ],
 ];
+
+const a3ability = [
+  [
+    "Boom Bot",
+    "The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them.",
+  ],
+  [
+    "Blast Pack",
+    "Instantly throw a Blast Pack that will stick to surfaces. Reuse the ability after deployment to detonate, damaging and moving anything hit.",
+  ],
+  [
+    "Paint Shells",
+    " Fire to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.",
+  ],
+  [
+    "Showstopper ",
+    "Equip a rocket launcher. Fire shoots a rocket that does massive area damage on contact with anything.",
+  ],
+];
 export default function CardSection(props) {
   let Ability = new Map();
   Ability.set(0, a0ability);
   Ability.set(1, a1ability);
   Ability.set(2, a2ability);
+  Ability.set(3, a3ability);
   console.log("first");
   let curr_Ability = Ability.get(props.id);
   const [inProp, setInProp] = useState(false);

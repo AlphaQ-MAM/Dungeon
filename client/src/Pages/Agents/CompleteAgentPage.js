@@ -5,6 +5,7 @@ function CompleteAgentPage(props) {
   const items = [
     { label: "OMEN", value: "OMEN" },
     { label: "JETT", value: 'JETT' },
+    { label: "RAZE", value: 'RAZE' },
     { label :"PHOENIX",value:"PHOENIX"}
   ];
   const[agent,setAgent]=useState("OMEN");

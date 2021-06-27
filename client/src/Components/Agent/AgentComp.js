@@ -30,6 +30,15 @@ import Pf1 from "../../Images/phoenix/f1.png";
 import Pf2 from "../../Images/phoenix/f2.jpg";
 import Pf3 from "../../Images/phoenix/f3.png";
 
+import RV1 from "../../Images/raze/v1.mp4";
+import Rp1 from "../../Images/raze/p1.png";
+import Rp2 from "../../Images/raze/p2.png";
+import Rp3 from "../../Images/raze/p3.png";
+import Rp4 from "../../Images/raze/p4.png";
+import Rf1 from "../../Images/raze/f1.png";
+import Rf2 from "../../Images/raze/f2.png";
+import Rf3 from "../../Images/raze/f3.jpg";
+
 export default function AgentComp(props) {
   const agent1 = [
     0,
@@ -73,7 +82,21 @@ export default function AgentComp(props) {
     "#ffc75e",
     "PHOENIX",
   ];
-  let agents = { OMEN: agent1, JETT: agent2, PHOENIX:agent3 };
+  const agent4 = [
+    3,
+    RV1,
+    Rp1,
+    Rp2,
+    Rp3,
+    Rp4,
+    Rf1,
+    Rf2,
+    Rf3,
+    "#f76675",
+    "#5f2033",
+    "RAZE",
+  ];
+  let agents = { OMEN: agent1, JETT: agent2, PHOENIX: agent3 ,RAZE:agent4};
 
   let currAgent = agents[props.agent];
 
