@@ -1,0 +1,20 @@
+
+  
+  .card {
+    transition: 0.5s;
+    background: linear-gradient(#e66465, #9198e5);;
+    border-radius: 10px;
+  }
+  .card h5 {
+    padding: 10px 0px;
+  }
+  .card:hover i,
+  h5 {
+    color: #c2185b;
+  }
+  
+  .service .card:hover {
+    transform: scale(1.03);
+    background: #fff;
+  }
+  
