@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <img className={styles.img} src={dungeon} alt="Dungeon" />
             <div className={styles.social_links}>
-                <Link to="https://www.instagram.com/developer_sah/">
+                <Link to="https://www.instagram.com//">
                     {/* <span className="fa-stack fa-lg ig combo"> */}
                     <span className={styles.combo + ' ' + styles.ig + ' fa-stack fa-lg'}>
                         <i className={'fa fa-circle fa-stack-2x ' + styles.circle}></i>

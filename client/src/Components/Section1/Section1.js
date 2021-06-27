@@ -24,13 +24,14 @@ const Section1 = () => {
                 <div className="col s12 m7 l6 xl5" style={{ paddingLeft: '10%' }}>
                     <h3>A 5v5 character-based tactical shooter <br /></h3>
                     <h2>Dungeons</h2>
+                    <Link to="/download" style={{ color: 'white' }}>
                     <button class={styles.butt + ' ' + styles.buttonAnthe}>
                         {/* <button class={'butt buttonAnthe'}> */}
 
-                        <Link to="/download" style={{ color: 'white' }}>
                             <span>Download Now!</span>
-                        </Link>
-                    </button>
+                        </button>
+                    </Link>
+
                 </div>
             </div>
         </div>
