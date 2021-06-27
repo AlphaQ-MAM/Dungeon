@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import LeaderBoard from './Pages/LeaderBoard/LeaderBoard';
 import './App.css';
 import Merchandise from './Pages/Merchandise/Merchandise';
+import Tournament from './Pages/Tournments';
 
 
 import CompleteAgentPage from './Pages/Agents/CompleteAgentPage';
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/leader" component={LeaderBoard} />
         <Route exact path="/merch" component={Merchandise} />
         <Route exact path="/agents" component={CompleteAgentPage}/>
+        <Route exact path="/tournaments" component={Tournament} />
 
       </Switch>
       <Footer/>

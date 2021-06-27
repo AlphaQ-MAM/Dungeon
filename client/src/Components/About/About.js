@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './About.module.css';
-import jett from '../../Images/jett.jpg'
 function About() {
     return (
         <div className={styles.About + ' row'} style={{ marginBottom: '0' }}>
@@ -17,7 +16,7 @@ function About() {
                 <hr className={styles.hr} />
             </div>
             <div className={styles.x + " col s12 m5 l5"}>
-                <img className={styles.img} src={jett} alt="Jett OP" />
+                <img className={styles.img} src="dungeonmerch.jpg" alt="Jett OP" />
             </div>
         </div>
     )
