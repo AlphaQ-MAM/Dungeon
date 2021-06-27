@@ -7,12 +7,12 @@ import M from 'materialize-css';
 const Navbar = () => {
     useEffect(() => {
         var elems = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(elems);
+         M.Sidenav.init(elems);
 
     }, []);
     return (
         <div>
-            <nav style={{ height: '80px' }}>
+            <nav style={{ height: '80px'}}>
                 <div className="nav-wrapper black">
                     {/* <span style={{ fontSize: '90%' }}>JU-Placements</span> */}
                     <a href="/" className="brand-logo hover-switch">
@@ -22,21 +22,21 @@ const Navbar = () => {
                     <div class="vertical"></div>
                     <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons" style={{marginTop:'30%'}}>menu</i></a>
                     <ul className="right hide-on-med-and-down" style={{ verticalAlign: 'baseline' }}>
-                        <li><Link className="btn black" to="/agents">Agents</Link></li>
-                        <li><Link className="btn black" to="/news">News</Link></li>
-                        <li><Link className="btn black" to="/merch">Merch</Link></li>
-                        <li><Link className="btn black" to="/leader">LearderBoard</Link></li>
-                        <li><Link className="btn black" to="/tournaments">Tournaments</Link></li>
+                        <li><Link className="btn black " to="/agents">Agents</Link></li>
+                        <li><Link className="btn black " to="/news">News</Link></li>
+                        <li><Link className="btn black " to="/merch">Merch</Link></li>
+                        <li><Link className="btn black " to="/leader">LearderBoard</Link></li>
+                        <li><Link className="btn black " to="/tournaments">Tournaments</Link></li>
                     </ul>
                 </div>
             </nav>
 
             <ul className="sidenav black" id="mobile-demo">
-                <li><Link className="btn black" to="/agents">Agents</Link></li>
-                <li><Link className="btn black" to="/news">News</Link></li>
-                <li><Link className="btn black" to="/merch">Merch</Link></li>
-                <li><Link className="btn black" to="/leader">LearderBoard</Link></li>
-                <li><Link className="btn black" to="/tournaments">Tournaments</Link></li>
+                <li><Link className="btn black sidenav-close" to="/agents">Agents</Link></li>
+                <li><Link className="btn black sidenav-close" to="/news">News</Link></li>
+                <li><Link className="btn black sidenav-close" to="/merch">Merch</Link></li>
+                <li><Link className="btn black sidenav-close" to="/leader">LearderBoard</Link></li>
+                <li><Link className="btn black sidenav-close" to="/tournaments">Tournaments</Link></li>
             </ul>
         </div>
     );
