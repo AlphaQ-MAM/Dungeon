@@ -44,13 +44,16 @@ function News() {
                     </div>
                 </div>
 
+                
                 <div className="center container">
+                    <Link to="/news" style={{ color: 'white' }}>
+
                     <button class={styles.butt + ' ' + styles.buttonAnthe}>
 
-                        <Link to="/news" style={{ color: 'white' }}>
                             <span>Read News</span>
-                        </Link>
-                    </button>
+                        </button>
+                    </Link>
+
                 </div>
             </div>
         </div>

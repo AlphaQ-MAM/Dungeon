@@ -22,6 +22,10 @@ export const News = () => {
     const [checkParallax, setcheckParallax] = React.useState(false);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
+    useEffect(() => {
         if (checked === true) {
             var elems = document.querySelectorAll('.parallax');
             M.Parallax.init(elems);

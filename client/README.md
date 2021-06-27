@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+## DUNGEON GAMES
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](https://ibb.co/pWNy0vG"Optional title")
 
-## Available Scripts
 
-In the project directory, you can run:
+## Justification of theme(E-sports)
+A multiplayer video game played competitively for spectators, typically by professional gamers.Our website Dungeon games in all colours is a perfect example of a highly competitive e-sport. It featutes all the cliché components a gamer seeks for. It comprises of the:-
+1)Tournaments:Find communities-run dungeon e-sports tournaments happening in 200 communities worldwide. Can partiipate in any of the upcoming tournaments. Can also create their own tournaments. Can view live tournaments and can check standings of completed tournaments
+2)Agents:Summarizes all the characters involved and also their abilities. Also highlights various fanarts received.
+3)LeaderBoard:To retrive the current Global Rank of a user
+4)News section:Responsible for keep the user updated all the time.
+5)Merchandise:Fulfills the materialistic interests of gamers allow them to buy their favorites.
+1)It provides a platform for gamers to prove their mettle
 
-### `yarn start`
+## Problems faced
+1)Problem:Site rendering was really slow after deployment.
+Resolved:Compressed and trimmed the media site was using
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2)Problem:Coming up with creative designing ideas 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3)Problem:Github merging issues while rebasing
+Solution:Google and stackOverflow
 
-### `yarn test`
+4)Problem:Issus while deploying
+Solution:Problems occured due to git rebase due to unhandled compilation errors, later resolved
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5)Problem:Difficulty in finding resources
 
-### `yarn build`
+## Things we learnt
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1)Deployment
+2)Github rebasing and merging
+3)Material-UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## References we used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Videos of agents: Peter Rusev (https://www.youtube.com/channel/UC42EKwtjsOYaUEuS2HODPyQ)
+2)High resolution pictures:Unsplash(https://unsplash.com
+)
+3)Abilities photos:(https://www.rockpapershotgun.com/
+)
+4)Fire Animation:(https://freefrontend.com/css-fire-animation/)
 
-### `yarn eject`
+## CSS/JS FrameWorks
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1)Materialize 
+2)ReactJs
+3)Material-UI
+4)SASS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## How to run the application
+1) Run git clone https://github.com/AlphaQ-MAM/Dungeon.git in your command line
+2) cd into the project directory 
+3) In the "client" directory execute the command npm i to install all the required dependencies and packages
+4) In the "client" directory, run npm start to initiate the React development server
+5) You're all done!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributors
 
-## Learn More
+1) Manan Vora
+2) Mahak Chhajer
+3) Aniswar Gupta
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
