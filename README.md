@@ -14,18 +14,18 @@ An e-sports is a multiplayer video game played competitively for spectators, typ
 1) It provides a platform for gamers to prove their mettle
 
 ## Problems faced
-1) Problem:Site rendering was really slow after deployment.
+1) Problem:Site rendering was really slow after deployment.<br/>
 Resolved:Compressed and trimmed the media site was using
 
-2) Problem:Coming up with creative designing ideas 
+2) Problem:Coming up with creative designing ideas <br/>
 
-3) Problem:Github merging issues while rebasing
+3) Problem:Github merging issues while rebasing.<br/>
 Solution:Google and stackOverflow
 
-4) Problem:Issus while deploying
+4) Problem:Issus while deploying<br/>
 Solution:Problems occured due to git rebase due to unhandled compilation errors, later resolved
 
-5) Problem:Difficulty in finding resources
+5) Problem:Difficulty in finding resources<br/>
 
 ## Things we learnt
 
