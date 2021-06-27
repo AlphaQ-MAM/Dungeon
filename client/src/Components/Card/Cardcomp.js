@@ -3,7 +3,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 import './CardComp.css';
 export default function OutlinedCard(props) {
   return (
-    <div class="col s12 m6 l3 center-align">
+    <div class="col s6 m6 l3 center-align">
       <div class="card">
       <div class="card-content">
         <img src={props.image} alt="alt"  className="responsive-img  materialboxed"/>

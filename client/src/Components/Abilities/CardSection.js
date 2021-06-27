@@ -8,7 +8,7 @@ import "./trans.css";
 const a0ability = [
   [
     "Shrouded Step",
-    " Fire to begin a brief channel, then teleport to the location.Shrouded Step is a very short-ranged teleport that requires line-of-sight on your desired end location. ",
+    "Begin a brief channel to the location.Shrouded Step is a very short teleport that requires line-of-sight on your desired end location. ",
   ],
   [
     "Paranoia",
@@ -26,7 +26,7 @@ const a0ability = [
 const a1ability = [
   [
     "Cloudburst",
-    "	Instantly throw a projectile that expands into a brief vision cloud on impact with a surface. Hold the ability key to curve the cloud in the direction of your crosshair.",
+    "	Instantly throw a projectile that expands into a brief cloud on impact with a surface. Hold key to curve the cloud in the direction of your crosshair.",
   ],
   [
     "Updraft",
@@ -75,7 +75,7 @@ const a3ability = [
     " Fire to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.",
   ],
   [
-    "Showstopper ",
+    "Showstop ",
     "Equip a rocket launcher. Fire shoots a rocket that does massive area damage on contact with anything.",
   ],
 ];
