@@ -61,7 +61,7 @@ export const News = () => {
                             <div className={classes.container}>
                                 <Fade in={checkParallax}>
                                     <Paper elevation={4} className={classes.paper}>
-                                        <h1 className={styles.text + ' white-text'}>THE DUNGEON NEWS</h1>
+                                        <h1 className={styles.text + ' white-text'} style={{ fontWeight: 'bold' }}>THE DUNGEON NEWS</h1>
                                     </Paper>
                                 </Fade>
                             </div>

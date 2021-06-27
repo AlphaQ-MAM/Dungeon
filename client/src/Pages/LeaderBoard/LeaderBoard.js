@@ -39,7 +39,7 @@ function LeaderBoard() {
     return (
         <>
             <div id="parallax" className="parallax-container" style={{ paddingTop: '20vh',textAlign:'center'}} >
-                <h1 className="white-text text1" style={{ paddingTop: '8%' }}>THE DUNGEON LEADERBOARD</h1>
+                <h1 className="white-text text1" style={{ paddingTop: '8%', fontWeight:'bold'}}>THE DUNGEON LEADERBOARD</h1>
                 <div className="parallax case" style={{ paddingTop: '10%' }}>
                     <img src="Dun.jfif" alt="source_img" className="responsive-img" style={{backgroundPosition:'cover'}} />
                     <FireAnimation />

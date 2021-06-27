@@ -12,21 +12,17 @@ function CompleteAgentPage(props) {
   return (
     
     <div className="black" >
-      
-      {/* <div style={{borderTop:"3px solid white"}}> */}
-      <select
-        className="white-text"
-        // style={{ backgroundColor: "black" ,width:"50%",margin:"0 auto"}}
+      <div className="input-field col s12" style={{borderTop:"3px solid white",marginTop:'0'}}>
+      <select className="white-text"
+        style={{ backgroundColor: "black" ,width:"50%",margin:"0 auto",display:'block'}}
         value={agent}
         onChange={(e) => setAgent(e.target.value)}
       >
-        {items.map((item) => (
-          <option key={item.value} value={item.value}>
-            {item.label}
-          </option>
+          {items.map((item) => (
+            <option  key={item.value} value={item.value} >{item.value}</option>
         ))}
-      </select>
-      {/* </div> */}
+        </select>
+        </div>
       <div>
         <AgentComp agent={agent} />
       </div>

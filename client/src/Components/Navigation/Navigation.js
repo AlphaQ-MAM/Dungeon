@@ -20,7 +20,7 @@ const Navbar = () => {
                         <img alt="Dungeons" src={Dungeon} style={{ height: '60px', width: '60px', marginLeft: '20px', marginTop: '10px' }} />
                     </a>
                     <div class="vertical"></div>
-                    <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons" style={{marginTop:'30%'}}>menu</i></a>
                     <ul className="right hide-on-med-and-down" style={{ verticalAlign: 'baseline' }}>
                         <li><Link className="btn black" to="/agents">Agents</Link></li>
                         <li><Link className="btn black" to="/news">News</Link></li>

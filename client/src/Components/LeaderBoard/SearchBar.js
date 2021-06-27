@@ -7,7 +7,7 @@ function SearchBar() {
             <div className="nav-wrapper orange darken-1 searchPosition">
                 <form>
                     <div className="input-field ">
-                        <input id="search" type="search" required value="Search yourself" className="white-text"/>
+                        <input id="search" type="search" required placeholder="Search Yourself" style={{ fontWeight: 'bold'}}/>
                         <label className="label-icon" for="search"><i className="material-icons">search</i></label>
                         <i className="material-icons">close</i>
                     </div>
