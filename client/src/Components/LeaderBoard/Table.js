@@ -9,10 +9,10 @@ function LeaderBoardTable() {
             <Table className="white-text mytable-marg  orange darken-3">
                 <Thead>
                     <Tr>
-                        <Th className="bord center">Rank</Th>
-                        <Th className="bord center">Rating</Th>
-                        <Th className="bord center">Username</Th>
-                        <Th className="bord center">Ongoing</Th>
+                        <Th className="bord center" style={{ fontWeight: 'bold' }}>RANK</Th>
+                        <Th className="bord center" style={{ fontWeight: 'bold' }}>RATING</Th>
+                        <Th className="bord center" style={{ fontWeight: 'bold' }}>USERNAME</Th>
+                        <Th className="bord center " style={{ fontWeight: 'bold' }}>ONGOING</Th>
                     </Tr>
                 </Thead>
                 <Tbody>

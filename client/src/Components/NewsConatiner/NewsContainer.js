@@ -25,7 +25,7 @@ function NewsContainer(props) {
             <Slide direction="up" in={props.checked} mountOnEnter unmountOnExit>
                 <Paper elevation={4} className={classes.paper}>
                     <div style={{paddingTop:'50px',textAlign:'center'}}>
-                        <h2 className="white-text center" style={{margin:'0',marginBottom:'30px' }}>LATEST NEWS!</h2>
+                        <h2 className="white-text center" style={{ margin: '0', marginBottom: '30px',fontWeight: 'bold' }}>FEATURED NEWS</h2>
                         <div className="newo" style={{}} >
                             <section className="container section  " style={{ paddingBottom: '4vw' }} id="photos">
                                 <NewsComponentLeft img="news2.jfif" title="MAP" alt="MAP">
