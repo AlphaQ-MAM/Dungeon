@@ -18,3 +18,14 @@
     background: #fff;
   }
   
+ @media screen and (max-width: 600px) {
+   
+    div.card-content {
+      height: 50%;
+   }
+   div.card-content .responsive-img{
+     height:30%;
+     width:50%;
+     left: 25%;
+   } 
+  } 
