@@ -29,14 +29,14 @@
   @media screen and (max-width: 600px) {
     div.type {
         font-size: 30px;
-        top:35%;
+        top:25%;
     }
   }
 
   @media screen and (min-width:550px) and (max-width: 1100px) {
     div.type {
         font-size: 40px;
-        top:40%;
+        top:30%;
     }
   }
   

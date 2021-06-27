@@ -5,14 +5,14 @@ function News() {
     return (
         <div className={styles.news}>
 
-            <div className={'row'}>
+            <div className={'row'} >
                 <div className="col l1 s12"></div>
                 <div className="col s12 m4 l6" style={{ marginBottom: '5%' }}>
                     <h1 style={{ margin: '0px' }} className={styles.h1}>News Updates</h1>
 
                 </div>
             </div>
-            <div className={styles.x + ' row'} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
+            <div className={styles.x + ' row'} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column',marginBottom:"0" }}>
                 <div className={styles.y}>
                     {/* <div className="col s12 l1 m1"></div> */}
                     <div className="col s12 l3 m3">

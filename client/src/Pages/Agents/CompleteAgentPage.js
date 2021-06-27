@@ -13,10 +13,10 @@ function CompleteAgentPage(props) {
     
     <div className="black" >
       
-      <div style={{borderTop:"3px solid white"}}>
+      {/* <div style={{borderTop:"3px solid white"}}> */}
       <select
         className="white-text"
-        style={{ backgroundColor: "black" ,width:"50%",margin:"0 auto"}}
+        // style={{ backgroundColor: "black" ,width:"50%",margin:"0 auto"}}
         value={agent}
         onChange={(e) => setAgent(e.target.value)}
       >
@@ -26,7 +26,7 @@ function CompleteAgentPage(props) {
           </option>
         ))}
       </select>
-      </div>
+      {/* </div> */}
       <div>
         <AgentComp agent={agent} />
       </div>
