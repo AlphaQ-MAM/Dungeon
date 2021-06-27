@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styles from './News.module.css';
-import jett from '../../Images/jett.jpg'
 function News() {
     return (
         <div className={styles.news}>
@@ -19,7 +18,7 @@ function News() {
                     <div className="col s12 l3 m3">
                         <figure className={styles.figure + ' ' + styles.effectGoliath}>
 
-                            <img className={styles.img} src={jett} alt="img23" />
+                            <img className={styles.img} src="news2.jfif" alt="img23" />
                             <h6>New <span>Updates</span></h6>
                             <p>Read the full news in our News Section</p>
                         </figure>
@@ -28,7 +27,7 @@ function News() {
                     <div className={' col s12 l3 m3'}>
                         <figure className={styles.figure + ' ' + styles.effectGoliath}>
 
-                            <img className={styles.img} src={jett} alt="img23" />
+                            <img className={styles.img} src="news3.jfif" alt="img23" />
                             <h6>Bugs <span>Fixed</span></h6>
                             <p>Read the full news in our News Section.</p>
                         </figure>
@@ -36,7 +35,7 @@ function News() {
                     <div className={' col s12 l3 m3'}>
                         <figure className={styles.figure + ' ' + styles.effectGoliath}>
 
-                            <img className={styles.img} src={jett} alt="img23" />
+                            <img className={styles.img} src="news4.jfif" alt="img23" />
                             {/* <figcaption className={styles.figurecaption}> */}
                             <h6>New<span>Episode</span></h6>
                             <p>Read the full news in our News Section.</p>
